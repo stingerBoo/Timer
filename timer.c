@@ -37,7 +37,7 @@ void uninit_timer()
  */
 struct timer_record* query_user()
 {
-    int start_h, start_m, end_h; //after suppresion is 200 violations, remove end_m, it should be 199
+    int start_h, start_m, end_h, end_m;
     struct timer_record* the_record;
     time_t timer;
     struct tm* tm_tmp;
